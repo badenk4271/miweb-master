@@ -39,8 +39,9 @@ class Welcome extends CI_Controller {
 
 		echo "Nombre: ".$name."  Apellido: ".$lastname;
 //aqui estamos creando el array
-		$data = array('nombre' => $this->input->post('apellido1'),'apellido' => $this->input->post('apellido1') );
+		$data = array('nombre' => $this->input->post('nombre1'),'apellido' => $this->input->post('apellido1') );
 
 		//$this->form_model->guardar($data);
 	//}
 }
+ }
